@@ -202,12 +202,13 @@ bool addAccount(string id, int PIN, Account *acc)
 		printf("Id invalid!\n");
 		return false;
 	}
-
+	/*
 	if (PIN < 100000 || PIN >=1000000 )
 	{
 		printf("PIN invalid!\n");
 		return false;
 	}
+	*/
 
 	if (acc == NULL)
 	{
